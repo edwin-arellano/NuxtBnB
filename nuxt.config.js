@@ -6,9 +6,7 @@ export default {
             lang: "en"
         },
         bodyAttrs: {
-            class: [
-                "my-style"
-            ]
+            class: ["my-style"]
         },
         meta: [
             {
@@ -18,5 +16,6 @@ export default {
     },
     router: {
         prefetchLinks: false
-    }
+    },
+    plugins: ['~/plugins/maps.client']
 }
